@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-cors-headers = "*"
+django-environ = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+pyjwt = "*"
+pytz = "*"
+sqlparse = "*"
+tzdata = "*"
+python-decouple = "*"
+python-dotenv = "*"
+djoser = "*"
+google-api-python-client = "*"
+drf-yasg = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"

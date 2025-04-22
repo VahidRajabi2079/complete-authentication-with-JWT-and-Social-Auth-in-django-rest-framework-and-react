@@ -1,0 +1,32 @@
+/* index.css */
+
+/* تنظیمات عمومی صفحه */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #f4f7fc;
+}
+
+/* مرکز‌چین فرم */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* فرم ثبت‌نام */
+.signup-form-container {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
